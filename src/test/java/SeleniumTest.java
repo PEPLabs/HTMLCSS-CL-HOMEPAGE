@@ -23,7 +23,7 @@ public class SeleniumTest {
         System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
 
         // Get file
-        File file = new File("intro.html");
+        File file = new File("Intro.html");
         String path = "file://" + file.getAbsolutePath();
 
         // Create a new ChromeDriver instance

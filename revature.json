@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "titleIsChanged",
+          "label": "Verify page title is customized",
+          "description": "Ensures that the loaded page's title is not the default placeholder value, confirming that the HTML document has a meaningful title."
+        },
+        {
+          "methodName": "headerTagTest",
+          "label": "Verify presence of at least one header",
+          "description": "Checks that the page contains at least one header element (h1–h6), confirming basic semantic structure in the HTML."
+        },
+        {
+          "methodName": "listTest",
+          "label": "Verify unordered list contains list items",
+          "description": "Uses a CSS selector to ensure there is at least one <li> element inside a <ul>, confirming that a list structure is present on the page."
+        },
+        {
+          "methodName": "linkTest",
+          "label": "Verify link element and target attribute",
+          "description": "Verifies that an anchor (<a>) element exists on the page and that its href DOM attribute is set to 'Intro.html'."
+        }
+      ]
+    }
+  ]
+}
